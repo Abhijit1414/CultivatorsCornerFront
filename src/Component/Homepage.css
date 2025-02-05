@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .homepage {
+    text-align: center; /* Center align all text */
+  }
+  
+  .home-section {
+    height: 100vh; /* Full screen height */
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(to bottom right, #f3f3f3, #e5e5e5); /* Subtle background gradient */
+    background-image: url("../../public/Images/vegetable homepage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .home-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    transform: translateY(-30px); /* Move container slightly upwards */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+    opacity: 0.9;
+  }
+  
+  .home-content h1 {
+    font-size: 2rem;
+    color: #007bff; /* Blue color */
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    color: #333; /* Dark gray for paragraph */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .btn-order {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn-order:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  
+  /* Sections (Why Us, How It Works, About Us, Contact Us, Order) */
+  .section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    background-image: url("../../public/Images/vegetable homepage.jpg");
+  }
+  
+  .section:nth-child(even) {
+    background-color: #eaeaea; /* Alternating background colors */
+  }
+  
+  .section-content {
+    max-width: 500px;
+    margin: 0 auto; /* Center align content */
+    
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section p, .section ol {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify; /* Slight justification for better readability */
+  }
+  
+  /* Contact Form */
+  /* Contact Us Section - Background Image */
+  .contact-us {
+    background-image: url("../../public/Images/contact-us.png"); /* Replace with your image path */
+    background-size: contain; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Parallax effect */
+    image-rendering: auto;
+    color: #f6e9e9; /* Ensures text color contrasts well with the background */
+    padding: 60px 20px; /* Add spacing around the form content */
+  }
+  
+  /* Contact Form */
+  .contact-us form {
+    margin-top: 20px;
+    background-color: rgba(252, 251, 251, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for form */
+  }
+  
+  .contact-us .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+  
+  .contact-us textarea {
+    resize: none;
+  }
+  
+  .contact-us button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-us button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
