@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Cards from 'react-credit-cards';
-import 'react-credit-cards/es/styles-compiled.css';
+
+import 'react-credit-cards-2/dist/es/styles-compiled.css';
+
 import './credit-form.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
